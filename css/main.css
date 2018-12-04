@@ -9,3 +9,22 @@ html {
   text-align: center;
   color: #072B43;
 }
+
+.logo {
+  float: left;
+}
+
+.banner {
+  position: relative;
+  border-bottom: 5px solid #282828;
+  max-height: 75vh;
+  overflow: hidden;
+  clear: both;
+}
+
+.banner-text {
+  text-align: center;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+}
