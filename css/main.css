@@ -82,3 +82,13 @@ html {
   bottom: -30px;
   left: 0;
 }
+
+.desc {
+  font-weight: 600;
+  text-align: justify;
+  border-bottom: 3px solid #072B43;
+}
+
+.desc p {
+  margin: 0;
+}
