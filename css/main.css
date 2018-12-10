@@ -1,64 +1,6 @@
 html {
   font-family: 'Open Sans', sans-serif;
-  background-color: #b4d5ea;
-}
-
-.nav {
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  clear: left;
-  border-top: 3px solid #072B43;
-  border-bottom: 3px solid #072B43;
-  display: none;
-}
-
-.nav a {
-  display: block;
-  padding: .5em;
-  text-decoration: none;
-  color: #072B43;
-  background-color: #69a5cd;
-  font-weight: 600;
-}
-
-.nav a:hover {
-  background-color: #072B43;
-  color: #fff;
-}
-
-.nav li {
-  border-bottom: 2px solid #3b7da9;
-}
-
-.nav li:last-child {
-  border-bottom: 0;
-}
-
-.nav-check {
-  position: absolute;
-  top: -3em;
-}
-
-.nav-check:checked ~ .nav {
-  display: block;
-}
-
-.nav-label {
-  cursor: pointer;
-}
-
-.nav-close {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-open {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-close {
-  display: inline;
+  background-color: #B3E1FF;
 }
 
 .courgette {
@@ -68,9 +10,13 @@ html {
   color: #072B43;
 }
 
+.logo {
+  float: left;
+}
+
 .banner {
   position: relative;
-  border-bottom: 3px solid #072B43;
+  border-bottom: 5px solid #282828;
   max-height: 50vh;
   overflow: hidden;
   clear: both;
