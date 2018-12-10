@@ -17,7 +17,7 @@ html {
 .banner {
   position: relative;
   border-bottom: 5px solid #282828;
-  max-height: 75vh;
+  max-height: 50vh;
   overflow: hidden;
   clear: both;
 }
