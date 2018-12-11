@@ -99,16 +99,12 @@ html {
   color: #fff;
 }
 
+.card {
+  text-align: center;
+}
+
 .cards {
   border-bottom: 3px solid #031c2e;
-}
-
-.txt {
-  text-align: justify;
-}
-
-.txt-dog {
-  text-align: left;
 }
 
 footer {
