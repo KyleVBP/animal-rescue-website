@@ -8,9 +8,8 @@ html {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  clear: left;
-  border-top: 3px solid #072B43;
-  border-bottom: 3px solid #072B43;
+  clear: both;
+  border-top: 3px solid #031C2E;
   display: none;
 }
 
@@ -18,13 +17,13 @@ html {
   display: block;
   padding: .5em;
   text-decoration: none;
-  color: #072B43;
+  color: #031C2E;
   background-color: #69a5cd;
   font-weight: 600;
 }
 
 .nav a:hover {
-  background-color: #072B43;
+  background-color: #031C2E;
   color: #fff;
 }
 
@@ -58,19 +57,19 @@ html {
 }
 
 .nav-check:checked ~ .nav-label .nav-close {
-  display: inline;
+  display: block;
 }
 
 .courgette {
   font-family: 'Courgette', cursive;
   text-decoration: none;
   text-align: center;
-  color: #072B43;
+  color: #031C2E;
 }
 
 .banner {
   position: relative;
-  border-bottom: 3px solid #072B43;
+  border-top: 3px solid #031C2E;
   max-height: 50vh;
   overflow: hidden;
   clear: both;
@@ -86,9 +85,41 @@ html {
 .desc {
   font-weight: 600;
   text-align: justify;
-  border-bottom: 3px solid #072B43;
+  border-bottom: 3px solid #031C2E;
 }
 
 .desc p {
+  margin: 0;
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: #69a5cd;
+  border: 2px solid #3b7da9;
+  padding: .5em;
+  color: #031C2E;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: #031C2E;
+  border: 2px solid #031C2E;
+  color: #fff;
+}
+
+.cards {
+  border-bottom: 3px solid #031C2E;
+}
+
+footer {
+  background-color: #3b7da9;
+  color: #031C2E;
+  text-align: center;
+  overflow: hidden;
+  border-bottom: 5px solid #031C2E;
+  font-weight: 600;
+}
+
+footer p {
   margin: 0;
 }
