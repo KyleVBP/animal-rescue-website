@@ -85,7 +85,6 @@ html {
 .desc {
   font-weight: 600;
   text-align: justify;
-  border-bottom: 3px solid #031C2E;
 }
 
 .desc p {
@@ -111,6 +110,10 @@ html {
   border-bottom: 3px solid #031C2E;
 }
 
+.txt {
+  text-align: justify;
+}
+
 footer {
   background-color: #3b7da9;
   color: #031C2E;
@@ -122,4 +125,75 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .nav {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    clear: none;
+    float: right;
+    border-top: none;
+  }
+
+  .nav a {
+    display: block;
+    margin: .75em .25em .25em .1em;
+    padding: .5em;
+    text-decoration: none;
+    background-color: #69a5cd;
+    border: 2px solid #3b7da9;
+    border-radius: 10px;
+  }
+
+  .nav a:hover {
+    background-color: #031C2E;
+    border: 2px solid #031C2E;
+    color: #fff;
+  }
+
+  .nav li {
+    border-bottom: 0;
+    display: inline-block;
+  }
+
+  .nav li:last-child {
+    border-bottom: 0;
+  }
+
+  .nav-check {
+    position: absolute;
+    top: -3em;
+  }
+
+  .nav-check:checked ~ .nav {
+    display: block;
+  }
+
+  .nav-label {
+    cursor: pointer;
+  }
+
+  .nav-check:checked ~ .nav-label {
+    background-color: #031C2E;
+  }
+
+  .nav-open {
+    display: none;
+  }
+
+  .nav-close {
+    display: none;
+  }
+
+  .nav-check:checked ~ .nav-label .nav-open {
+    display: block;
+  }
+
+  .nav-check:checked ~ .nav-label .nav-close {
+    display: block;
+  }
+
 }
