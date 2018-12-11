@@ -1,5 +1,5 @@
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #b4d5ea;
 }
 
@@ -9,7 +9,7 @@ html {
   padding: 0;
   list-style-type: none;
   clear: both;
-  border-top: 3px solid #031C2E;
+  border-top: 3px solid #031c2e;
   display: none;
 }
 
@@ -17,13 +17,13 @@ html {
   display: block;
   padding: .5em;
   text-decoration: none;
-  color: #031C2E;
+  color: #031c2e;
   background-color: #69a5cd;
   font-weight: 600;
 }
 
 .nav a:hover {
-  background-color: #031C2E;
+  background-color: #031c2e;
   color: #fff;
 }
 
@@ -61,15 +61,15 @@ html {
 }
 
 .courgette {
-  font-family: 'Courgette', cursive;
+  font-family: "Courgette", cursive;
   text-decoration: none;
   text-align: center;
-  color: #031C2E;
+  color: #031c2e;
 }
 
 .banner {
   position: relative;
-  border-top: 3px solid #031C2E;
+  border-top: 3px solid #031c2e;
   max-height: 50vh;
   overflow: hidden;
   clear: both;
@@ -96,18 +96,18 @@ html {
   background-color: #69a5cd;
   border: 2px solid #3b7da9;
   padding: .5em;
-  color: #031C2E;
+  color: #031c2e;
   font-weight: 600;
 }
 
 .btn:hover {
-  background-color: #031C2E;
-  border: 2px solid #031C2E;
+  background-color: #031c2e;
+  border: 2px solid #031c2e;
   color: #fff;
 }
 
 .cards {
-  border-bottom: 3px solid #031C2E;
+  border-bottom: 3px solid #031c2e;
 }
 
 .txt {
@@ -120,10 +120,10 @@ html {
 
 footer {
   background-color: #3b7da9;
-  color: #031C2E;
+  color: #000;
   text-align: center;
   overflow: hidden;
-  border-bottom: 5px solid #031C2E;
+  border-bottom: 5px solid #031c2e;
   font-weight: 600;
 }
 
@@ -153,8 +153,8 @@ footer p {
   }
 
   .nav a:hover {
-    background-color: #031C2E;
-    border: 2px solid #031C2E;
+    background-color: #031c2e;
+    border: 2px solid #031c2e;
     color: #fff;
   }
 
@@ -181,7 +181,7 @@ footer p {
   }
 
   .nav-check:checked ~ .nav-label {
-    background-color: #031C2E;
+    background-color: #031c2e;
   }
 
   .nav-open {
