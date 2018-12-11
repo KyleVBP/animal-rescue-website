@@ -19,7 +19,6 @@ html {
   text-decoration: none;
   color: #031c2e;
   background-color: #69a5cd;
-  font-weight: 600;
 }
 
 .nav a:hover {
@@ -92,7 +91,6 @@ html {
   border: 2px solid #3b7da9;
   padding: .5em;
   color: #031c2e;
-  font-weight: 600;
 }
 
 .btn:hover {
@@ -119,7 +117,6 @@ footer {
   text-align: center;
   overflow: hidden;
   border-bottom: 5px solid #031c2e;
-  font-weight: 600;
 }
 
 footer p {
