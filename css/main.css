@@ -114,6 +114,10 @@ html {
   text-align: justify;
 }
 
+.txt-dog {
+  text-align: left;
+}
+
 footer {
   background-color: #3b7da9;
   color: #031C2E;
