@@ -121,6 +121,32 @@ footer p {
   margin: 0;
 }
 
+.form {
+  border-bottom: 2px solid #031c2e;
+  color: #031c2e;
+}
+
+.form-fix {
+  display: inline-block;
+}
+
+.input-text {
+  color: #434343;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .form-fix {
+    max-width: 45%;
+  }
+
+  .option-fix {
+    max-width: 90%;
+    display: inline-block;
+  }
+
+}
+
 @media only screen and (min-width: 60em) {
 
   .nav {
