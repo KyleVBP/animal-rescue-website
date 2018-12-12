@@ -69,7 +69,7 @@ html {
 .banner {
   position: relative;
   border-top: 3px solid #031c2e;
-  max-height: 50vh;
+  max-height: 60vh;
   overflow: hidden;
   clear: both;
 }
@@ -79,6 +79,8 @@ html {
   position: absolute;
   bottom: -30px;
   left: 0;
+  text-shadow: 0 0 10px #000;
+  color: #fff;
 }
 
 .desc p {
